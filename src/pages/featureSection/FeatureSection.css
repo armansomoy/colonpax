@@ -1,0 +1,95 @@
+#feature {
+        padding: 80px 0px;
+}
+
+.features_h2 {
+        text-align: center;
+        font: normal normal bold 56px/64px Dejanire Headline !important;
+        letter-spacing: -1px;
+        color: #103B19;
+        opacity: 1;
+        font-family: 'Lora', serif !important;
+}
+
+.features_p {
+        text-align: center;
+        letter-spacing: 1px;
+        color: #333333;
+        opacity: 1;
+        padding-bottom: 40px;
+        font-weight: normal;
+        font-family: 'Poppins', sans-serif !important;
+}
+
+.title_one {
+        text-align: left;
+        font: normal normal medium 24px/32px Dejanire Headline;
+        letter-spacing: 0px;
+        color: #333333;
+        opacity: 1;
+        font-family: 'Lora', serif !important;
+        padding-bottom: 15px;
+}
+
+.white_div p {
+        font-family: 'Poppins', sans-serif !important;
+}
+
+.white_div {
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid #ECEEF2;
+        border-radius: 16px;
+        opacity: 1;
+        padding: 35px;
+        margin-left: -15px;
+        position: relative;
+        font-family: 'Lora', serif !important;
+}
+
+.img-part {
+        /* margin-left: -50px; */
+}
+
+.img-part img {
+        width: 126%;
+        margin-left: -138px;
+}
+
+.green_div {
+        background: #62C476 0% 0% no-repeat padding-box;
+        box-shadow: 0px 28px 32px #0000000F;
+        border-radius: 16px;
+        padding: 35px;
+        position: relative;
+        margin-left: 10px;
+        font-family: 'Lora', serif !important;
+}
+
+.green_div p {
+        color: #ffffff;
+}
+
+.green_div hr {
+        color: #ffffff;
+}
+
+.title_two {
+        text-align: left;
+        font: normal normal medium 24px/32px Dejanire Headline;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+        padding-bottom: 15px;
+        font-family: 'Lora', serif !important;
+}
+
+@media(max-width:400px) {
+        .green_div {
+                margin: 4px;
+        }
+
+        .white_div {
+                padding-left: 30px;
+                margin: 2px;
+        }
+}

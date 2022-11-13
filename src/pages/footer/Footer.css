@@ -1,0 +1,103 @@
+.footer_section {
+        background-color: #0E2814;
+        padding: 4rem 0;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        opacity: 1;
+}
+
+.footer_p {
+        text-align: left;
+        font: normal normal normal 14px/24px Poppins-Regular !important;
+        letter-spacing: 1px;
+        color: #FFFFFF7E;
+        opacity: 1;
+
+}
+
+ul {
+        text-align: left;
+        letter-spacing: 3px;
+        color: #FFFFFF;
+        opacity: 1;
+}
+
+li {
+        list-style: none;
+        /* UI Properties */
+        text-align: left;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        opacity: 1;
+}
+
+.cards {
+        background-color: #62C476;
+        padding: 2rem;
+        margin-top: -210px;
+        margin-bottom: 3rem;
+        border-radius: 20px;
+        position: relative;
+}
+.card_img{
+        
+        left: 80px;
+        width: 900px;
+        height: 700px
+}
+.card_imges{
+position: absolute;
+left: 50%;
+}
+
+.card_h2 {
+        text-align: left;
+        font: normal normal bold 56px/64px Dejanire Headline !important;
+        letter-spacing: -1px;
+        color: #FFFFFF;
+        opacity: 1;
+}
+
+.card_p {
+        /* UI Properties */
+        text-align: left;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        opacity: 1;
+}
+
+.card_btn {
+        width: 170px;
+        height: 48px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border-radius: 14px;
+        opacity: 1;
+        color: #62C476;
+        opacity: 1;
+        text-align: center;
+        font: normal normal medium 16px/25px Poppins !important;
+        letter-spacing: 0px;
+        color: #62C476;
+        text-transform: uppercase;
+        border: none;
+}
+
+.social_link div img{
+cursor: pointer;
+opacity: 1;
+  transition: 0.2s;
+}
+.social_link div img:hover {opacity: .6}
+@media (min-width:1800px) {
+.cards{
+padding: 2.5rem;
+
+}   
+.card_img{
+        
+        
+        left: 25px;
+        width: 1000px;
+        height: 600px
+}     
+}
