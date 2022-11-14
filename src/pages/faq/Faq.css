@@ -1,27 +1,44 @@
-.faq_p {
+#faq {
+        padding: 80px 0px 120px;
+        background: #EDF7F0;
+}
+
+.faq-p {
         /* UI Properties */
         text-align: left;
         letter-spacing: 1px;
         color: #103B19BF;
         opacity: 1;
+        padding: 10px 0px 30px;
         font-family: 'Poppins', sans-serif !important;
 }
 
 .faq_h2 {
-        /* UI Properties */
+        padding-top: 80px;
         text-align: left;
-        font: normal normal bold 56px/64px Dejanire Headline !important;
+        font: normal normal bold 62px/64px Dejanire Headline !important;
         letter-spacing: -1px;
         color: #103B19;
         opacity: 1;
-        
+}
+
+.accordion-item {
+        border-bottom: 1px solid #62c47699 !important;
+        border-left: 0px;
+        border-right: 0px !important;
+        border-top: 0px;
+        padding: 5px 0px 15px;
+}
+
+.firstItem {
+        border-top: 1px solid #62c47699 !important;
 }
 
 .faq_btn {
-        width: 174px;
-        height: 48px;
+        padding: 15px 25px;
         /* UI Properties */
-        border: 1px solid #62C4764E;
+        border: 1px solid #62c47699;
+        background-color: #fff;
         border-radius: 6px;
         opacity: 1;
         border: none;
@@ -31,6 +48,7 @@
         color: #62C476;
         text-transform: uppercase;
         opacity: 1;
+        transition: all 0.2s ease;
 }
 
 .accordion-button {
@@ -40,35 +58,55 @@
         letter-spacing: 0px !important;
         color: #103B19 !important;
         opacity: 1;
-        font-size: 18px !important;
+        font-size: 24px !important;
         font-weight: bold !important;
-        padding-top:2rem !important;
+        padding-top: 2rem !important;
         box-shadow: none !important;
         font-family: 'Poppins', sans-serif !important;
-        
+
 }
+
 .accordion-item {
-        background-color: #ffffff !important;
-        border: none !important;
-}
-.service_div{
-padding-top: 7rem;
-padding-bottom: 9rem;
+        background-color: #EDF7F0 !important;
 }
 
-.accordion-button:not(.collapsed)::after{
-        background-image:url("../../assets/down.svg");
+.service_div {
+        padding-top: 7rem;
+        padding-bottom: 9rem;
+}
+
+/* .accordion-button:not(.collapsed)::after {
+        background-image: url("../../assets/down.svg");
         transform: rotate(360deg);
-        
-        }
-        .accordion-button::after{
-        background-image:url("../../assets/down.svg"); 
-        }
+}
 
-.service{
+.accordion-button::after {
+        background-image: url("../../assets/down.svg");
+} */
+
+/* .accordion-button{position: relative;}
+.accordion-button::before{
+        top: 0;
+        right: 0;
+        position: absolute;
+        height: 30px;
+        width: 30px;
+        background-color: red;
+        border-radius: 50%;
+        border: 1px solid rgb(255, 0, 0);
+} */
+.service {
         text-align: left;
         font: normal normal bold 25px/30px Dejanire Headline;
         letter-spacing: 0px;
         color: #103B19;
-        opacity: 1;       
+        opacity: 1;
+}
+
+.accordion-body {
+        background: #EDF7F0;
+        letter-spacing: 1px;
+        color: #103B19BF;
+        opacity: 1;
+        font-family: 'Poppins', sans-serif !important;
 }

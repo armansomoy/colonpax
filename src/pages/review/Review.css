@@ -3,7 +3,6 @@
 
 }
 
-.header-text {}
 
 .header-text h2 {
     text-align: center;
@@ -47,7 +46,8 @@
     height: 80px;
     width: 80px;
 }
-.name-box{
+
+.name-box {
     padding-top: 15px;
 }
 
@@ -81,6 +81,7 @@
     border-top: 1px solid #eee;
     padding-top: 20px;
 }
+
 .box .star ul {
     padding-left: 0px;
 }
@@ -120,7 +121,7 @@
 .slick-prev:before,
 .slick-next:before {
     font-family: 'slick';
-    font-size: 25px !important;
+    font-size: 30px !important;
     line-height: 1;
     opacity: .75;
     color: rgba(19, 82, 24, 0.762) !important;
@@ -138,6 +139,7 @@
     list-style: none;
     text-align: center;
 }
+
 .slick-dots li button:before {
     font-family: 'slick';
     font-size: 12px !important;
@@ -153,4 +155,8 @@
     color: black;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-prev:before {
+    content: '←';
 }
