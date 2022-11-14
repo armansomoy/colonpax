@@ -88,6 +88,7 @@ const Faq = () => {
           </div>
         </div>
         <div className="d-flex justify-content-around service_div">
+          
           <div className="service">
             <img src={free} alt="" className="img-fluid" /> Kostenfreier Versand
           </div>
