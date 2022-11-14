@@ -82,13 +82,14 @@ const Faq = () => {
                   also keine zusätzlichen Kohlenhydrate aufnehmen. Dein Körper
                   wird die Ballaststoffe weder absorbieren noch in Zucker
                   zerlegen.
+                  
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
           </div>
         </div>
         <div className="d-flex justify-content-around service_div">
-          
+
           <div className="service">
             <img src={free} alt="" className="img-fluid" /> Kostenfreier Versand
           </div>
