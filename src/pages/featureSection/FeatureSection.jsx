@@ -18,11 +18,7 @@ const FeatureSection = () => {
         </div>
       </div>
       <div className="row">
-      <div className="col-lg-4">
-          <div className="img-part">
-          <img src={man} alt="a man" className='' />
-          </div>
-        </div>
+        <div className="col-lg-1"></div>
         <div className="col-lg-4 white_div">
         <h4 className='title_one'>Das Leben vor Colonpax</h4>
               <p><img src={cross} alt="cross" className='img-fluid pe-2' /> Völlegefühl im Bauch  </p><hr />
@@ -32,15 +28,20 @@ const FeatureSection = () => {
               <p> <img src={cross} alt="cross" className='img-fluid pe-2' />Zu wenig Energie</p><hr />
               <p> <img src={cross} alt="cross" className='img-fluid pe-2' />Unangenehme Blähungen</p>
         </div>
-        <div className="col-lg-4 green_div">
-        <h4 className='title_one'>Das Leben vor Colonpax</h4>
-              <p><img src={cross} alt="cross" className='img-fluid pe-2' /> Völlegefühl im Bauch  </p><hr />
-              <p><img src={cross} alt="cross" className='img-fluid pe-2' />Verstopfung </p><hr /> 
-              <p> <img src={cross} alt="cross" className='img-fluid pe-2' />Darmbeschwerden</p><hr />
-              <p><img src={cross} alt="cross" className='img-fluid pe-2' /> Keine Erfolge beim Abnehmen </p><hr />
-              <p> <img src={cross} alt="cross" className='img-fluid pe-2' />Zu wenig Energie</p><hr />
-              <p> <img src={cross} alt="cross" className='img-fluid pe-2' />Unangenehme Blähungen</p>
+        <div className="col-lg-2">
+
         </div>
+        <div className="col-lg-4 green_div">
+        <h4 className='title_one'>Das Leben nach Colonpax</h4>
+              <p><i class="fa-solid fa-check"></i> Ein flacher Bauch </p><hr />
+              <p><i class="fa-solid fa-check"></i>regelmässiger Stuhlgang</p><hr /> 
+              <p><i class="fa-solid fa-check"></i>regelmässige Vardauung</p><hr />
+              <p><i class="fa-solid fa-check"></i> Kein Völlegefühl </p><hr />
+              <p><i class="fa-solid fa-check"></i> Effektive und nachhaltige Abnehmerfoge </p><hr />
+              <p><i class="fa-solid fa-check"></i> Das Zielgewicht halten</p> <hr />
+              <p><i class="fa-solid fa-check"></i> mehr Energie und Leistungsfähigkeit</p>
+        </div>
+        <div className="col-lg-1"></div>
       </div>
       {/* <div className="row">
         

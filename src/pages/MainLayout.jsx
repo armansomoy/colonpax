@@ -1,6 +1,7 @@
 import React from 'react'
 import AdvantageSection from './advantageSection/AdvantageSection'
 import Carosel from './carosel/Carosel'
+import Review from './review/Review'
 import Faq from './faq/Faq'
 import FeatureSection from './featureSection/FeatureSection'
 import Footer from './footer/Footer'
@@ -16,7 +17,7 @@ const MainLayout = () => {
                  <FeatureSection></FeatureSection>
                  <AdvantageSection></AdvantageSection>
                  <PercentageSection></PercentageSection>
-                 <Carosel></Carosel>
+                 <Review></Review>
                  <Faq></Faq>
                  <Footer></Footer>
                 </div>
