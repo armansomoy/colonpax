@@ -32,7 +32,7 @@ const FeatureSection = () => {
 
         </div>
         <div className="col-lg-4 green_div">
-        <h4 className='title_one'>Das Leben nach Colonpax</h4>
+        <h4 className='title_two'>Das Leben nach Colonpax</h4>
               <p><i class="fa-solid fa-check"></i> Ein flacher Bauch </p><hr />
               <p><i class="fa-solid fa-check"></i>regelmässiger Stuhlgang</p><hr /> 
               <p><i class="fa-solid fa-check"></i>regelmässige Vardauung</p><hr />

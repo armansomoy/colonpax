@@ -3,24 +3,28 @@
         grid-template-columns: repeat(2, 1fr);
         justify-content: start;
         grid-gap: 1rem;
-        padding: 30px  0;
+        padding: 30px 0;
 }
 
 .content-box {
         padding-bottom: 35px;
 }
-.content-box img{
+
+.content-box img {
         padding-bottom: 20px;
 }
+
 .adv_h4 {
         /* UI Properties */
         text-align: center;
-        font: normal normal 900 20px/32px Dejanire Headline;
         letter-spacing: 0px;
         color: #103B19;
         opacity: 1;
         padding-bottom: 1rem;
-        font-family: 'Poppins', sans-serif !important;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Lora', serif !important;
+        padding-bottom: 20px;
         margin-top: 0.5rem;
 
 }
@@ -32,8 +36,8 @@
         letter-spacing: 1px;
         color: #333333;
         opacity: 1;
-        font-family: 'Lora', serif;
         padding: 0 4rem;
+        font-family: 'Poppins', sans-serif !important;
 }
 
 .link_paragraph {
@@ -52,8 +56,10 @@
         letter-spacing: -1px;
         color: #103B19;
         opacity: 1;
-
-
+        font-size: 56px;
+        font-weight: bold;
+        font-family: 'Lora', serif !important;
+        padding-bottom: 20px;
 }
 
 .advantage_p {

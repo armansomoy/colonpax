@@ -35,12 +35,26 @@ ul {
 
 li {
         list-style: none;
+}
+
+li a {
+        list-style: none;
         /* UI Properties */
         text-align: left;
         letter-spacing: 1px;
         color: #FFFFFF;
         opacity: 1;
         padding-bottom: 5px;
+        text-decoration: none;
+}
+
+li a:hover {
+        color: #FFFFFF;
+}
+
+.down-footer a{
+        color: #FFFFFF;
+        text-decoration: none;
 }
 
 .social_link ul li {
@@ -62,9 +76,10 @@ li {
         transition: all 0.3;
 }
 
-.main-footer{
+.main-footer {
         padding: 30px 0px;
 }
+
 .social_link ul li a i {
         color: #FFFFFF;
 }
@@ -97,10 +112,12 @@ li {
 
 .card_h2 {
         text-align: left;
-        font: normal normal bold 56px/64px Dejanire Headline !important;
         letter-spacing: -1px;
         color: #FFFFFF;
         opacity: 1;
+        font-size: 50px;
+        font-weight: bold;
+        font-family: 'Lora', serif !important;
 }
 
 .card_p {
@@ -142,14 +159,12 @@ li {
         padding-bottom: 20px;
 }
 
-@media (min-width:1800px) {
-        .cards {
-                padding: 5.5rem
-        }
+.cards {
+        padding: 3.5rem
+}
 
-        .card_img {
-                left: 25px;
-                width: 1000px;
-                height: 600px
-        }
+.card_img {
+        left: 25px;
+        width: 1000px;
+        height: 600px
 }

@@ -6,11 +6,12 @@
 
 .header-text h2 {
     text-align: center;
-    font: normal normal bold 56px/64px Dejanire Headline !important;
     letter-spacing: -1px;
     color: #103B19;
     opacity: 1;
-
+    font-size: 56px;
+    font-weight: bold;
+    font-family: 'Lora', serif !important;
 }
 
 .header-text p {
