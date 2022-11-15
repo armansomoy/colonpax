@@ -28,7 +28,7 @@ const Footer = () => {
         </div>
 
         <div className="row main-footer">
-          <div className="col-md-5">
+          <div className="col-lg-5 col-md-7">
             <img src={logo} alt="logo" className="img-fluid" />
 
             <p className="footer_p pt-2">
@@ -38,7 +38,7 @@ const Footer = () => {
               es dir helfen kann.
             </p>
           </div>
-          <div className="col-md-2">
+          <div className="col-lg-2 col-md-5">
             <ul>
               <li className="ul-header">MENU</li>
               <li>
@@ -58,7 +58,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="col-md-3">
+          <div className="col-lg-3 col-md-6">
             <ul>
               <li className="ul-header">SERVICE</li>
               <li>FAQ </li>
@@ -76,7 +76,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="col-md-2 social_link">
+          <div className="col-lg-2 col-md-6 social_link">
             <ul>
               <li>
                 <a href="#">
@@ -98,18 +98,18 @@ const Footer = () => {
         </div>
         <hr />
         <div className="row down-footer">
-          <div className="col-md-6">
+          <div className="col-lg-6 col-md-6 ">
             <p className="down-p">
               Copyright © 2022 Colonpax. Alle Rechte vorbehalten.
             </p>
           </div>
-          <div className="col-md-2">
+          <div className="col-lg-2 col-md-6 ">
             <a href="#">Nutzungsbedingungen</a>
           </div>
-          <div className="col-md-2">
+          <div className="col-lg-2 col-md-6">
             <a href="#">Impressum</a>
           </div>
-          <div className="col-md-2">
+          <div className="col-lg-2 col-md-6">
             <a href="#">Datenschutzbestimmungen</a>
           </div>
         </div>

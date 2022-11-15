@@ -90,18 +90,18 @@ const Faq = () => {
           </div>
         </div>
         <div className="row icon-text-part">
-          <div className="col-lg-4">
+          <div className="col-lg-4 col-md-4">
             <div className="service">
               <img src={free} alt="" className="img-fluid" /> Kostenfreier
               Versand
             </div>
           </div>
-          <div className="col-lg-4">
+          <div className="col-lg-4 col-md-4">
             <div className="service">
               <img src={best} alt="" className="img-fluid" /> Sichere Bezahlung
             </div>
           </div>
-          <div className="col-lg-4">
+          <div className="col-lg-4 col-md-4">
             <div className="service">
               <img src={eco} alt="" className="img-fluid" /> Bio Qualität
             </div>

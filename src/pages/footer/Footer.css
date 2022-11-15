@@ -182,10 +182,65 @@ li a:hover {
 @media (min-width: 992px) and (max-width: 1199.98px) {}
 
 /*======== medium device =========*/
-@media (min-width: 768px) and (max-width: 991.98px) {}
+@media (min-width: 768px) and (max-width: 991.98px) {
+        .cards::after {
+                display: none;
+        }
+
+        ul {
+                text-align: left;
+                letter-spacing: 3px;
+                color: #FFFFFF;
+                opacity: 1;
+                padding-left: 0px;
+        }
+
+        .footer_p {
+                padding-bottom: 30px;
+        }
+}
 
 /*======== small device =========*/
-@media (min-width: 576px) and (max-width: 767.98px) {}
+@media (min-width: 576px) and (max-width: 767.98px) {
+        .cards {
+                border-radius: 0px;
+                height: 360px;
+                padding: 30px;
+                text-align: center;
+        }
+
+        .cards::after {
+                display: none;
+        }
+
+        .card_h2 {
+                text-align: center;
+                font-size: 26px;
+        }
+
+        .card_p {
+                text-align: center;
+                padding: 10px 0px 20px;
+        }
+
+        .footer_section {
+                text-align: center;
+        }
+
+        .footer_p {
+                text-align: center;
+        }
+
+        .footer_section ul {
+                text-align: center;
+                padding: 0px;
+                padding-top: 30px;
+        }
+
+        .down-p {
+                text-align: center;
+        }
+}
 
 /*======== Extra small device =========*/
 @media (max-width: 575.98px) {

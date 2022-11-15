@@ -166,7 +166,32 @@ span {
 @media (min-width: 992px) and (max-width: 1199.98px) {}
 
 /*======== medium device =========*/
-@media (min-width: 768px) and (max-width: 991.98px) {}
+@media (min-width: 768px) and (max-width: 991.98px) {
+        .common_h2 {
+                font-size: 40px;
+        }
+
+        .common_p {
+                padding: 10px 0px 20px 0px;
+        }
+
+        .hero_section::after {
+                height: 72%;
+                width: 60%;
+                bottom: 189px;
+                right: -15%;
+                z-index: -999;
+        }
+
+        .banner-img-part {
+                margin-left: 0;
+                padding-top: 150px;
+        }
+
+        .hero_section {
+                height: auto;
+        }
+}
 
 /*======== small device =========*/
 @media (min-width: 576px) and (max-width: 767.98px) {

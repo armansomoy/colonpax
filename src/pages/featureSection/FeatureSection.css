@@ -109,7 +109,23 @@
 @media (min-width: 992px) and (max-width: 1199.98px) {}
 
 /*======== medium device =========*/
-@media (min-width: 768px) and (max-width: 991.98px) {}
+@media (min-width: 768px) and (max-width: 991.98px) {
+        .green_div {
+                margin-left: 20px;
+        }
+
+        .white_div {
+                margin-left: -20px;
+        }
+
+        .none {
+                display: none;
+        }
+
+        .features_h2 {
+                font-size: 42px;
+        }
+}
 
 /*======== small device =========*/
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -118,7 +134,7 @@
         }
 
         .white_div {
-                border: none;
+                /* border: none; */
                 margin-left: 0px;
                 margin-bottom: 25px;
         }

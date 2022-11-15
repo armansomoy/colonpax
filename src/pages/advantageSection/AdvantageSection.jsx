@@ -23,7 +23,7 @@ const AdvantageSection = () => {
         </div>
       </div>
       <div className="row">
-        <div className="col-lg-6">
+        <div className="col-lg-6 col-md-6">
           <div className="content-box">
             <div className="d-flex justify-content-center">
               <img src={bord} alt="" className="px-2" />
@@ -39,7 +39,7 @@ const AdvantageSection = () => {
             </div>
           </div>
         </div>
-        <div className="col-lg-6">
+        <div className="col-lg-6 col-md-6">
           <div className="content-box">
             <div className="d-flex justify-content-center">
               <img src={watch} alt="" className="px-2" />
@@ -54,7 +54,7 @@ const AdvantageSection = () => {
             </div>
           </div>
         </div>
-        <div className="col-lg-6">
+        <div className="col-lg-6 col-md-6">
           <div className="content-box">
             <div className="d-flex justify-content-center">
               <img src={jar} alt="" className="px-2" />
@@ -69,7 +69,7 @@ const AdvantageSection = () => {
             </div>
           </div>
         </div>
-        <div className="col-lg-6">
+        <div className="col-lg-6 col-md-6">
           <div className="content-box">
             <div className="d-flex justify-content-center">
               <img src={glass} alt="" className="px-2" />

@@ -18,8 +18,8 @@ const FeatureSection = () => {
         </div>
       </div>
       <div className="row">
-        <div className="col-lg-1"></div>
-        <div className="col-lg-4 white_div">
+        <div className="col-lg-1 none"></div>
+        <div className="col-lg-4 col-md-6 white_div">
         <h4 className='title_one'>Das Leben vor Colonpax</h4>
               <p><img src={cross} alt="cross" className='img-fluid pe-2' /> Völlegefühl im Bauch  </p><hr />
               <p><img src={cross} alt="cross" className='img-fluid pe-2' />Verstopfung </p><hr /> 
@@ -28,10 +28,10 @@ const FeatureSection = () => {
               <p> <img src={cross} alt="cross" className='img-fluid pe-2' />Zu wenig Energie</p><hr />
               <p> <img src={cross} alt="cross" className='img-fluid pe-2' />Unangenehme Blähungen</p>
         </div>
-        <div className="col-lg-2">
+        <div className="col-lg-2 none">
 
         </div>
-        <div className="col-lg-4 green_div">
+        <div className="col-lg-4 col-md-6 green_div">
         <h4 className='title_two'>Das Leben nach Colonpax</h4>
               <p><i class="fa-solid fa-check"></i> Ein flacher Bauch </p><hr />
               <p><i class="fa-solid fa-check"></i>regelmässiger Stuhlgang</p><hr /> 
@@ -41,7 +41,7 @@ const FeatureSection = () => {
               <p><i class="fa-solid fa-check"></i> Das Zielgewicht halten</p> <hr />
               <p><i class="fa-solid fa-check"></i> mehr Energie und Leistungsfähigkeit</p>
         </div>
-        <div className="col-lg-1"></div>
+        <div className="col-lg-1 none"></div>
       </div>
       {/* <div className="row">
         

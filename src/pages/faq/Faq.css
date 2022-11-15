@@ -131,7 +131,21 @@
 @media (min-width: 992px) and (max-width: 1199.98px) {}
 
 /*======== medium device =========*/
-@media (min-width: 768px) and (max-width: 991.98px) {}
+@media (min-width: 768px) and (max-width: 991.98px) {
+        .faq_h2 {
+                font-size: 42px;
+        }
+
+        .accordion-button {
+                font-size: 20px !important;
+        }
+
+        .icon-text-part .service img {
+                padding: 10px 50px;
+                display: block;
+        }
+}
+
 
 /*======== small device =========*/
 @media (min-width: 576px) and (max-width: 767.98px) {
