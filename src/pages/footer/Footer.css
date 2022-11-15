@@ -52,7 +52,7 @@ li a:hover {
         color: #FFFFFF;
 }
 
-.down-footer a{
+.down-footer a {
         color: #FFFFFF;
         text-decoration: none;
 }
@@ -160,11 +160,71 @@ li a:hover {
 }
 
 .cards {
-        padding: 3.5rem
+        padding: 3.5rem;
+        position: relative;
 }
 
-.card_img {
-        left: 25px;
-        width: 1000px;
-        height: 600px
+
+.cards::after {
+        position: absolute;
+        content: '';
+        background-image: url(../../../src/assets/colon.png);
+        right: -40px;
+        bottom: 0;
+        height: 123%;
+        width: 44%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+
+}
+
+/*======== large device =========*/
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/*======== medium device =========*/
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/*======== small device =========*/
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+/*======== Extra small device =========*/
+@media (max-width: 575.98px) {
+        .cards {
+                border-radius: 0px;
+                height: 360px;
+                padding: 30px;
+                text-align: center;
+        }
+
+        .cards::after {
+                display: none;
+        }
+
+        .card_h2 {
+                text-align: center;
+                font-size: 26px;
+        }
+
+        .card_p {
+                text-align: center;
+                padding: 10px 0px 20px;
+        }
+
+        .footer_section {
+                text-align: center;
+        }
+
+        .footer_p {
+                text-align: center;
+        }
+
+        .footer_section ul {
+                text-align: center;
+                padding: 0px;
+                padding-top: 30px;
+        }
+
+        .down-p {
+                text-align: center;
+        }
 }

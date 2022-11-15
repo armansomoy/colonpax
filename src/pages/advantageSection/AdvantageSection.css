@@ -7,8 +7,13 @@
 }
 
 .content-box {
-        padding-bottom: 35px;
+        padding: 50px 30px;
+        border: 1px solid #d1d1d194;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        height: 350px;
 }
+
 
 .content-box img {
         padding-bottom: 20px;
@@ -36,7 +41,7 @@
         letter-spacing: 1px;
         color: #333333;
         opacity: 1;
-        padding: 0 4rem;
+        padding: 0;
         font-family: 'Poppins', sans-serif !important;
 }
 
@@ -52,14 +57,12 @@
 
 .advantage_h2 {
         text-align: center;
-        font: normal normal bold 56px/64px Dejanire Headline !important;
         letter-spacing: -1px;
         color: #103B19;
         opacity: 1;
         font-size: 56px;
         font-weight: bold;
         font-family: 'Lora', serif !important;
-        padding-bottom: 20px;
 }
 
 .advantage_p {
@@ -69,15 +72,50 @@
         opacity: 1;
         font-family: 'Poppins', sans-serif !important;
         padding: 1rem 7rem;
+        padding-bottom: 20px;
 }
 
 
-@media(max-width:500px) {
-        .grid_div {
-                grid-template-columns: auto;
+/*======== large device =========*/
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/*======== medium device =========*/
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/*======== small device =========*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+        .advantage_h2 {
+                font-size: 36px;
         }
 
-        .border_right {
-                border: none;
+        .advantage_p {
+                padding: 0 0 20px;
+        }
+
+        .content-box {
+                padding: 30px 0px;
+        }
+
+        .adv_p {
+                padding: 0 20px;
+        }
+}
+
+/*======== Extra small device =========*/
+@media (max-width: 575.98px) {
+        .advantage_h2 {
+                font-size: 36px;
+        }
+
+        .advantage_p {
+                padding: 0 0 20px;
+        }
+
+        .content-box {
+                padding: 30px 0px;
+        }
+
+        .adv_p {
+                padding: 0 20px;
         }
 }

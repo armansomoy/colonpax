@@ -92,6 +92,7 @@
         font-weight: bold;
         font-family: 'Lora', serif !important;
 }
+
 /* 
 @media(max-width:400px) {
         .green_div {
@@ -103,3 +104,47 @@
                 margin: 2px;
         }
 } */
+
+/*======== large device =========*/
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/*======== medium device =========*/
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/*======== small device =========*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+        .features_h2 {
+                font-size: 36px;
+        }
+
+        .white_div {
+                border: none;
+                margin-left: 0px;
+                margin-bottom: 25px;
+        }
+
+        .green_div {
+                border-radius: 0px;
+                padding: 35px;
+                margin-left: 0px;
+        }
+}
+
+/*======== Extra small device =========*/
+@media (max-width: 575.98px) {
+        .features_h2 {
+                font-size: 36px;
+        }
+
+        .white_div {
+                border: none;
+                margin-left: 0px;
+                margin-bottom: 25px;
+        }
+
+        .green_div {
+                border-radius: 0px;
+                padding: 35px;
+                margin-left: 0px;
+        }
+}

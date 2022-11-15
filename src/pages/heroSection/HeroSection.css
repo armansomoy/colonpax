@@ -113,37 +113,46 @@ span {
 
 }
 
+.hero_div .star {
+        padding-top: 35px;
+}
+
+.hero_div .star ul {
+        padding-left: 0px;
+}
+
+.hero_div .star ul li {
+        display: inline-block;
+        padding-right: 10px;
+}
+
+.hero_div .star ul li .fa-solid,
+.fas {
+        font-weight: 900;
+        color: rgb(246, 156, 13);
+        font-size: 20px;
+}
+
+.icon-box ul {
+        padding-left: 0px;
+}
+
+.icon-box ul li {
+        display: inline-block;
+}
+
+.icon-box ul li img {
+        padding-right: 10px;
+}
+
 .banner-img-part {
-        margin-left: -50px;
-        padding-top: 70px;
+        margin-left: -40px;
 }
 
 .banner-img-part img {
-        width: 120%;
+        width: 110%;
 }
 
-@media(max-width:500px) {
-        .mini_icon {
-                display: flex;
-                flex-direction: column;
-
-        }
-
-        .mini_icon div {
-                margin-top: 7px;
-        }
-
-        .btn_two {
-                margin-top: 7px;
-        }
-}
-
-/* @media(min-width:1800px) {
-        span {
-                padding-right: 1.5rem;
-
-        }
-} */
 span {
         padding-right: 1.5rem;
 
@@ -151,4 +160,124 @@ span {
 
 .mini_icon img {
         padding-right: 10px;
+}
+
+/*======== large device =========*/
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/*======== medium device =========*/
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/*======== small device =========*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+        .common_h2 {
+                text-align: center;
+                font-size: 36px;
+        }
+
+        .common_p {
+                text-align: center;
+                padding-right: 0px;
+                padding-top: 20px;
+        }
+
+        .bold_tag {
+                text-align: center;
+                padding: 20px 0px;
+        }
+
+        .btn_one {
+                width: 100%;
+                height: 55px;
+                display: block;
+                margin-bottom: 10px;
+        }
+
+        .btn_two {
+                width: 100%;
+                height: 55px;
+                display: block;
+        }
+
+        .hero_section {
+                padding-top: 50px;
+                height: auto;
+        }
+
+        .icon-box ul li {
+                padding-bottom: 20px;
+        }
+
+        .icon-box span {
+                font-size: 12px;
+        }
+
+        .banner-img-part {
+                margin-left: 0px;
+        }
+
+        .banner-img-part img {
+                width: 100%;
+        }
+
+        .hero_section::after {
+                display: none;
+        }
+}
+
+/*======== Extra small device =========*/
+@media (max-width: 575.98px) {
+        .common_h2 {
+                text-align: center;
+                font-size: 36px;
+        }
+
+        .common_p {
+                text-align: center;
+                padding-right: 0px;
+                padding-top: 20px;
+        }
+
+        .bold_tag {
+                text-align: center;
+                padding: 20px 0px;
+        }
+
+        .btn_one {
+                width: 100%;
+                height: 55px;
+                display: block;
+                margin-bottom: 10px;
+        }
+
+        .btn_two {
+                width: 100%;
+                height: 55px;
+                display: block;
+        }
+
+        .hero_section {
+                padding-top: 50px;
+                height: auto;
+        }
+
+        .icon-box ul li {
+                padding-bottom: 20px;
+        }
+
+        .icon-box span {
+                font-size: 12px;
+        }
+
+        .banner-img-part {
+                margin-left: 0px;
+        }
+
+        .banner-img-part img {
+                width: 100%;
+        }
+
+        .hero_section::after {
+                display: none;
+        }
 }

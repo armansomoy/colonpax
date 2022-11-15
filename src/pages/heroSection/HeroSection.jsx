@@ -27,9 +27,27 @@ const HeroSection = () => {
             <h4 className="bold_tag">Mache das Quiz:</h4>
 
             <button className="btn_one">MÄNNLICH</button>
-            <button className="btn_two">WEIBLICHH</button>
+            <button className="btn_two">WEIBLICH</button>
             <br />
-            <img src={star} alt="ratings" className="img-fluid my-4" />
+            <div className="star">
+              <ul>
+                <li>
+                  <i class="fa-solid fa-star"></i>
+                </li>
+                <li>
+                  <i class="fa-solid fa-star"></i>
+                </li>
+                <li>
+                  <i class="fa-solid fa-star"></i>
+                </li>
+                <li>
+                  <i class="fa-solid fa-star"></i>
+                </li>
+                <li>
+                  <i class="fa-solid fa-star"></i>
+                </li>
+              </ul>
+            </div>
 
             <p className="little_p">
               „Seitdem ich Colonpax nehme, ist mein Blähbauch verschwunden und
@@ -38,23 +56,25 @@ const HeroSection = () => {
               schmeckt es SO GUT.“
             </p>
 
-            <div className="d-flex mini_icon">
-              <div>
-                <img src={vagan} alt="" className="ing-fluid" />
-                <span>VEGAN</span>
-              </div>
-              <div>
-                <img src={ohne} alt="" className="ing-fluid" />
-                <span>OHNE GENTECHNIK</span>
-              </div>
-              <div>
-                <img src={lakto} alt="" className="ing-fluid" />
-                <span>LAKTOSEFREI</span>
-              </div>
-              <div>
-                <img src={gluten} alt="" className="ing-fluid" />
-                <span>OHNE GLUTEN</span>
-              </div>
+            <div className="icon-box">
+              <ul>
+                <li>
+                  <img src={vagan} alt="" className="ing-fluid" />
+                  <span>VEGAN</span>
+                </li>
+                <li>
+                  <img src={ohne} alt="" className="ing-fluid" />
+                  <span>OHNE GENTECHNIK</span>
+                </li>
+                <li>
+                  <img src={lakto} alt="" className="ing-fluid" />
+                  <span>LAKTOSEFREI</span>
+                </li>
+                <li>
+                  <img src={gluten} alt="" className="ing-fluid" />
+                  <span>OHNE GLUTEN</span>
+                </li>
+              </ul>
             </div>
           </div>
           <div className="col-md-5">

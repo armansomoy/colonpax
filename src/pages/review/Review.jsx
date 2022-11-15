@@ -15,6 +15,29 @@ export default class Review extends Component {
       speed: 500,
       slidesToShow: 3,
       slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 1366,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+          },
+        },
+        {
+          breakpoint: 769,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+          },
+        },
+        {
+          breakpoint: 576,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          },
+        },
+      ],
     };
     return (
       <section id="review">
@@ -389,7 +412,6 @@ export default class Review extends Component {
                   </div>
                 </div>
                 <div className="star">
-                  
                   <ul>
                     <li>
                       <i class="fa-solid fa-star"></i>

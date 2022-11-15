@@ -5,11 +5,13 @@ import facebook from "../../assets/Group 114.svg";
 import twitter from "../../assets/Group 115.svg";
 import dot from "../../assets/Group 116.svg";
 import cloud from "../../assets/Union 8.svg";
+import colon from "../../assets/colon.png";
 
 const Footer = () => {
   return (
     <div className="footer_section">
       <div className="container">
+
         <div className="cards row overflow-hidden">
           <div className="col-md-6">
             <h2 className="card_h2">
@@ -20,10 +22,11 @@ const Footer = () => {
             </p>
             <button className="card_btn">MACH DEN TEST</button>
           </div>
-          <div className="col-md-6 card_imges">
-            <img src={cloud} alt="" className="card_img" />
+          <div className="col-md-6 card_image">
+            
           </div>
         </div>
+
         <div className="row main-footer">
           <div className="col-md-5">
             <img src={logo} alt="logo" className="img-fluid" />

@@ -161,3 +161,55 @@
 .slick-prev:before {
     content: '←';
 }
+
+/*======== large device =========*/
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/*======== medium device =========*/
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/*======== small device =========*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #review {
+        padding: 50px 0px 70px;
+    }
+
+    .header-text h2 {
+        font-size: 36px;
+        padding-bottom: 15px;
+    }
+
+    .slick-dots {
+        bottom: 0px !important;
+    }
+
+    .slick-next {
+        display: none !important;
+    }
+    .slick-prev {
+        display: none !important;
+    }
+}
+
+/*======== Extra small device =========*/
+@media (max-width: 575.98px) {
+    #review {
+        padding: 50px 0px 70px;
+    }
+
+    .header-text h2 {
+        font-size: 36px;
+        padding-bottom: 15px;
+    }
+
+    .slick-dots {
+        bottom: 0px !important;
+    }
+
+    .slick-next {
+        display: none !important;
+    }
+    .slick-prev {
+        display: none !important;
+    }
+}

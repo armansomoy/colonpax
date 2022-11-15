@@ -10,13 +10,15 @@ const Faq = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-5">
-            <h2 className="faq_h2">Häufig gestellte Fragen</h2>
-            <p className="faq-p">
-              Hier findest Du eine kurze Auswahl an den wichtigsten Fragen.
-              Sollte deine Frage unbeantwortet sein besuche einfach unsere FAQ
-              Seite oder kontaktiere uns.
-            </p>
-            <button className="faq_btn">KONTAKTIERE UNS</button>
+            <div className="text-part">
+              <h2 className="faq_h2">Häufig gestellte Fragen</h2>
+              <p className="faq-p">
+                Hier findest Du eine kurze Auswahl an den wichtigsten Fragen.
+                Sollte deine Frage unbeantwortet sein besuche einfach unsere FAQ
+                Seite oder kontaktiere uns.
+              </p>
+              <button className="faq_btn">KONTAKTIERE UNS</button>
+            </div>
           </div>
           <div className="col-md-7">
             <Accordion>
@@ -71,7 +73,7 @@ const Faq = () => {
               <Accordion.Item eventKey="4">
                 <Accordion.Header>
                   Kann ich Colonpax während einer <br />
-                   Keto-Diät einnehmen?
+                  Keto-Diät einnehmen?
                 </Accordion.Header>
                 <Accordion.Body>
                   Ja, das kannst du gern machen! Colonpax wird im Gegensatz zu
@@ -82,14 +84,30 @@ const Faq = () => {
                   also keine zusätzlichen Kohlenhydrate aufnehmen. Dein Körper
                   wird die Ballaststoffe weder absorbieren noch in Zucker
                   zerlegen.
-                  
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
           </div>
         </div>
-        <div className="d-flex justify-content-around service_div">
-
+        <div className="row icon-text-part">
+          <div className="col-lg-4">
+            <div className="service">
+              <img src={free} alt="" className="img-fluid" /> Kostenfreier
+              Versand
+            </div>
+          </div>
+          <div className="col-lg-4">
+            <div className="service">
+              <img src={best} alt="" className="img-fluid" /> Sichere Bezahlung
+            </div>
+          </div>
+          <div className="col-lg-4">
+            <div className="service">
+              <img src={eco} alt="" className="img-fluid" /> Bio Qualität
+            </div>
+          </div>
+        </div>
+        {/* <div className="d-flex justify-content-around service_div">
           <div className="service">
             <img src={free} alt="" className="img-fluid" /> Kostenfreier Versand
           </div>
@@ -97,9 +115,9 @@ const Faq = () => {
             <img src={best} alt="" className="img-fluid" /> Sichere Bezahlung
           </div>
           <div className="service">
-            <img src={eco} alt="" className="img-fluid" />  Bio Qualität
+            <img src={eco} alt="" className="img-fluid" /> Bio Qualität
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

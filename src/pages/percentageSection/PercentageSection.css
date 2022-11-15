@@ -1,15 +1,18 @@
-.main_box{
+.main_box {
         position: relative;
 }
-.arrowsvg{
+
+.arrowsvg {
         position: absolute;
         left: 90%;
 }
-.usvg{
-position: absolute;
-left: 5%;
-bottom:-9%;
+
+.usvg {
+        position: absolute;
+        left: 5%;
+        bottom: -9%;
 }
+
 .percent_bg {
         background-color: #EDF7F0;
         padding: 5rem 0;
@@ -17,16 +20,17 @@ bottom:-9%;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        
-         
+
+
 }
 
 .percent_h4 {
         text-align: center;
-        font: normal normal bold 56px/64px Dejanire Headline;
         letter-spacing: -1px;
         color: #103B19;
         opacity: 1;
+        font-size: 56px;
+        font-weight: bold;
         font-family: 'Lora', serif !important;
 }
 
@@ -38,16 +42,18 @@ bottom:-9%;
         opacity: 1;
         padding: 0 24%;
         font-family: 'Poppins', sans-serif;
-        
+
 }
 
 .content h2 {
         /* UI Properties */
         text-align: center;
-        font: normal normal bold 72px/80px Dejanire Headline !important;
         letter-spacing: -2px;
         color: #103B19;
         opacity: 1;
+        font-size: 72px;
+        font-weight: bold;
+        font-family: 'Lora', serif !important;
 }
 
 .content p {
@@ -71,18 +77,50 @@ bottom:-9%;
 
 
 @media(max-width:500px) {
-        .usvg{
-         bottom: -2%;       
+        .usvg {
+                bottom: -2%;
         }
 }
-@media(min-width:1800px){
-        .arrowsvg{
+
+@media(min-width:1800px) {
+        .arrowsvg {
                 position: absolute;
                 left: 81%;
         }
-        .usvg{
-        position: absolute;
-        left: 15%;
-        bottom:-9%;
-        }       
+
+        .usvg {
+                position: absolute;
+                left: 15%;
+                bottom: -9%;
+        }
+}
+
+/*======== large device =========*/
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/*======== medium device =========*/
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/*======== small device =========*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+        .percent_h4 {
+                font-size: 36PX;
+        }
+
+        .percent_p {
+                padding: 0 10px;
+                font-size: 16px;
+        }
+}
+
+/*======== Extra small device =========*/
+@media (max-width: 575.98px) {
+        .percent_h4 {
+                font-size: 36PX;
+        }
+
+        .percent_p {
+                padding: 0 10px;
+                font-size: 16px;
+        }
 }
